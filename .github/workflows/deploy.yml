@@ -46,7 +46,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run e2e tests
-        run: npm run e2e
+        run: npm run e2e:ci
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

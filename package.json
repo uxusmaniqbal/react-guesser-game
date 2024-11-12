@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest --config ./vitest.config.ts",
-    "e2e": "playwright test --ui"
+    "e2e": "playwright test --ui",
+    "e2e:ci": "playwright test"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
