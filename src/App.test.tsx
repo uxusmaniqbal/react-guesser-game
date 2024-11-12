@@ -6,6 +6,6 @@ describe('App component', () => {
   it('should render correct headline', () => {
     render(<App />);
     const headlineElement = screen.getByTestId('headline');
-    expect(headlineElement.textContent).toBe('Counter React App');
+    expect(headlineElement.textContent).toBe('Guess the number');
   })
 })
